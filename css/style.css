@@ -1,0 +1,287 @@
+
+/* ========== GLOBAL ========== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #212529;
+}
+
+/* ========== NAVBAR & FOOTER ========== */
+.navbar,
+footer {
+  background: linear-gradient(90deg, #0d104e, #0d104e);
+  color: #fff;
+}
+
+.navbar-brand,
+.footer-link {
+  color: #fff;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover,
+.footer-link:hover {
+  color: #f0da95;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #8edbf0;
+}
+
+.footer-icon i,
+.footer-icon img {
+  transition: 0.3s ease;
+}
+
+.footer-icon:hover i,
+.footer-icon:hover img {
+  filter: brightness(1.4);
+  transform: scale(1.1);
+}
+
+.footer-icon.linkedin:hover i { color: #0a66c2; }
+.footer-icon.skype:hover i { color: #00aff0; }
+
+/* ========== HERO SECTION ========== */
+.hero-section {
+  background: #f8f9fa;
+  padding: 4rem 0;
+}
+.hero-section h1 { color: #212529; font-weight: 700; }
+.hero-section p.lead { color: #495057; }
+.hero-section .btn-primary {
+  background-color: #4e54c8;
+  border-color: #4e54c8;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+}
+.hero-section .btn-primary:hover {
+  background-color: #3b3fa8;
+  border-color: #3b3fa8;
+}
+
+/* ========== SKILLS & CERTIFICATIONS SECTION ========== */
+.skills-section,
+.certifications-section {
+  background-color: #eef4ff;
+  padding: 3rem 0;
+}
+
+.skills-section h2,
+.certifications-section h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.skills-section .card,
+.cert-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-section .card:hover,
+.cert-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.skills-section .card-body {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.skills-section .card-body i {
+  font-size: 2.5rem;
+  padding: 20px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.skills-section .card:hover i {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.cert-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* ================== PROJECTS SECTION ================== */
+.projects-section {
+  background-color: #f9fafb;
+  padding: 3rem 0;
+}
+.tech-label {
+  color: #4e93f5;
+}
+
+
+.projects-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 2.5rem;
+}
+
+/* Uniform image height and fit */
+.projects-section .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+/* Consistent card layout */
+.projects-section .card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-section .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projects-section .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.projects-section .card-text {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  flex-grow: 1;
+}
+
+.projects-section .btn {
+  align-self: flex-start;
+}
+
+/* Optional hover effect */
+.projects-section .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  transition: 0.3s ease;
+}
+
+/* ========== FOOTER ========== */
+footer h5 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+footer p i {
+  color: #ffc107;
+}
+
+.border-top {
+  border-top: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+
+
+
+
+
+
+
+/* Contact Form */
+
+
+form label {
+  font-weight: 600;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 6px;
+  box-shadow: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #0d6efd; /* Bootstrap primary color */
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+.btn-primary {
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  box-shadow: 0 4px 8px rgba(11, 94, 215, 0.4);
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+/* Responsive spacing */
+@media (max-width: 575.98px) {
+  form {
+    padding: 0 0.5rem;
+  }
+}
+
+
+
+
+
+/* portfolio */
+
+
+
+
+
+
+
+
+/* Timeline vertical line */
+ 
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 767.98px) {
+  .hero-section .text-md-start {
+    text-align: center !important;
+  }
+
+  .skills-section h2,
+  .projects-section h2,
+  .certifications-section h2 {
+    font-size: 2rem;
+  }
+
+  .footer-icon {
+    font-size: 1.8rem;
+  }
+
+  footer .row > div {
+    margin-bottom: 2rem;
+  }
+}
+
