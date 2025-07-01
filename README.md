@@ -1,1 +1,1 @@
-https://rehanakabirmim.github.io/portfolio_up/
+https://rehanakabirmim.github.io/portfolio_u/
